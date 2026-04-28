@@ -19,9 +19,6 @@
 // ╚══════════════════════════════════════════════════════════════╝
 const { useState, useEffect, useRef, useReducer } = React;
 
-
-import { useState, useEffect, useRef } from "react";
-
 const H = { nome:"Hotel Belvedere", stelle:"★★★★", color:"#154360", accent:"#c8932a", dark:"#0b2d43" };
 const EUR = v => new Intl.NumberFormat("it-IT",{minimumFractionDigits:2,maximumFractionDigits:2}).format(v||0);
 const now = () => new Date().toLocaleString("it-IT");
